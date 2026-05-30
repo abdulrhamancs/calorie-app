@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "createdAt": "2026-05-30T00:00:00.000Z",
+  "app": "rthm-kit",
+  "settings": {
+    "language": "en",
+    "theme": "dark",
+    "calorieTarget": 2000,
+    "proteinTarget": 140,
+    "carbsTarget": 200,
+    "fatTarget": 70,
+    "waterTargetMl": 2500,
+    "startingWeight": 70,
+    "currentWeight": 70,
+    "goalWeight": 65
+  },
+  "meals": [
+    {
+      "id": "meal_001",
+      "date": "2026-05-30",
+      "mealType": "Lunch",
+      "name": "Chicken breast cooked",
+      "arabicName": "صدر دجاج مطبوخ",
+      "calories": 330,
+      "protein": 62,
+      "carbs": 0,
+      "fat": 8,
+      "source": "food_library",
+      "createdAt": "2026-05-30T12:30:00.000Z"
+    }
+  ],
+  "savedFoods": [
+    {
+      "id": "food_001",
+      "name": "Chicken breast cooked",
+      "arabicName": "صدر دجاج مطبوخ",
+      "brand": null,
+      "baseAmount": 100,
+      "baseUnit": "g",
+      "calories": 165,
+      "protein": 31,
+      "carbs": 0,
+      "fat": 4,
+      "source": "user",
+      "isFavorite": true,
+      "createdAt": "2026-05-30T10:00:00.000Z"
+    }
+  ],
+  "recentMeals": [
+    {
+      "id": "recent_001",
+      "name": "Chicken breast cooked",
+      "arabicName": "صدر دجاج مطبوخ",
+      "calories": 330,
+      "protein": 62,
+      "carbs": 0,
+      "fat": 8,
+      "lastUsedAt": "2026-05-30T12:30:00.000Z"
+    }
+  ],
+  "favoriteFoods": [
+    {
+      "id": "food_001",
+      "name": "Chicken breast cooked"
+    }
+  ],
+  "weightHistory": [
+    {
+      "id": "weight_001",
+      "date": "2026-05-30",
+      "weight": 70,
+      "createdAt": "2026-05-30T08:00:00.000Z"
+    },
+    {
+      "id": "weight_002",
+      "date": "2026-05-31",
+      "weight": 69.7,
+      "createdAt": "2026-05-31T08:00:00.000Z"
+    }
+  ],
+  "waterLogs": {
+    "2026-05-30": {
+      "amountMl": 1500,
+      "targetMl": 2500,
+      "updatedAt": "2026-05-30T15:00:00.000Z"
+    }
+  },
+  "checklistLogs": {
+    "2026-05-30": {
+      "caloriesLogged": true,
+      "proteinTargetHit": false,
+      "weightLogged": true,
+      "waterLogged": false,
+      "workoutDone": true
+    }
+  },
+  "gymTemplates": [
+    {
+      "id": "template_001",
+      "name": "Upper A",
+      "orderIndex": 0,
+      "exercises": [
+        {
+          "exerciseId": "exercise_001",
+          "name": "Dumbbell Bench Press",
+          "arabicName": "بنش صدر دمبل",
+          "muscleGroup": "Chest",
+          "defaultSets": 2,
+          "orderIndex": 0
+        },
+        {
+          "exerciseId": "exercise_002",
+          "name": "Lat Pulldown",
+          "arabicName": "سحب علوي",
+          "muscleGroup": "Back",
+          "defaultSets": 2,
+          "orderIndex": 1
+        }
+      ],
+      "createdAt": "2026-05-30T10:00:00.000Z",
+      "updatedAt": "2026-05-30T10:00:00.000Z"
+    }
+  ],
+  "gymSessions": [
+    {
+      "id": "session_001",
+      "templateId": "template_001",
+      "templateName": "Upper A",
+      "date": "2026-05-30",
+      "exercises": [
+        {
+          "exerciseId": "exercise_001",
+          "name": "Dumbbell Bench Press",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 30,
+              "reps": 8
+            },
+            {
+              "setNumber": 2,
+              "weight": 30,
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "exerciseId": "exercise_002",
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 55,
+              "reps": 10
+            },
+            {
+              "setNumber": 2,
+              "weight": 55,
+              "reps": 9
+            }
+          ]
+        }
+      ],
+      "notes": "Good session.",
+      "createdAt": "2026-05-30T18:00:00.000Z"
+    }
+  ],
+  "gymLogs": [
+    {
+      "id": "log_001",
+      "sessionId": "session_001",
+      "exerciseId": "exercise_001",
+      "exerciseName": "Dumbbell Bench Press",
+      "date": "2026-05-30",
+      "weight": 30,
+      "reps": 8,
+      "estimated1RM": 38
+    }
+  ],
+  "gymDraftSession": null,
+  "language": "en",
+  "theme": "dark",
+  "targets": {
+    "calories": 2000,
+    "protein": 140,
+    "carbs": 200,
+    "fat": 70,
+    "waterMl": 2500,
+    "goalWeight": 65
+  }
+}
